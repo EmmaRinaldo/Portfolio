@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <title>Portfolio Emma Rinaldo</title>
     <link rel="stylesheet" href="asset/css/style.css">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 sticky-top">
         <div class="container">
             <a href="#" class="navbar-brand">Emma Rinaldo</a>
 
@@ -23,25 +24,25 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#about" class="nav-link">About me</a>
+                        <a href="#scrollspyHeading1" class="nav-link">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#projet" class="nav-link">Projets</a>
+                        <a href="#scrollspyHeading2" class="nav-link">Projets</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact</a>
+                        <a href="#scrollspyHeading3" class="nav-link">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link"><img src="/asset/img/logo_github.png" alt="" width="30"
-                                height="24"></a>
+                        <a href="#contact" class="nav-link"><img src="/asset/img/github.png" alt="" width="30"
+                                height="30"></a>
                     </li>
                     <li class="nav-item">
                         <a href="#contact" class="nav-link"><img src="/asset/img/logo_linkedin.png" alt="" width="30"
-                                height="24"></a>
+                                height="30"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link"><img src="/asset/img/cv.png" alt="" width="30"
-                                height="24"></a>
+                        <a href="#contact" class="nav-link"><img src="/asset/img/logo_cv.png" alt="" width="30"
+                                height="30"></a>
                     </li>
                 </ul>
             </div>
@@ -49,6 +50,170 @@
         </div>
 
     </nav>
+
+    <section class="bg-dark text-light p-5 text-center justify-center text-sm-start">
+        <div class="container text-center justify-center">
+
+            <div>
+                <h1>Portfolio <br> <span class="text-warning">Emma Rinaldo</span> <br> Développeur Web</h1>
+            </div>
+
+            <div class="btn-group">
+                <a href="#scrollspyHeading1" class="btn btn-primary active">
+                    <i class="bi-chevron-down" aria-hidden="true"></i>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-light text-dark p-5 text-center text-sm-start" id="scrollspyHeading1">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+
+                <img class="img-fluid w-50 d-none d-sm-block" src="asset/img/aboutme.svg" alt="">
+
+                <div>
+                    <h2>About Me</h2>
+                    <p class="lead my-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ut quas ipsa quod enim vitae in.
+                        Exercitationem provident explicabo totam recusandae dolore dolorum ex, vero, accusamus, deserunt
+                        deleniti eaque voluptatum.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container align-items-center justify-content">
+            <div class="text-center justify-center">
+                <h3 class="my-4">J'utilise ...</h3>
+            </div>
+            <div class="row d-sm-flex align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="asset/img/html.png" class="img-fluid w-80 h-80 d-sm-block" alt="">
+                </div>
+                <div class="col-md">
+                    <img src="asset/img/css.png" class="img-fluid w-80 h-80 d-sm-block" alt="">
+                </div>
+                <div class="col-md">
+                    <img src="asset/img/js.png" class="img-fluid w-80 h-80 d-sm-block" alt="">
+                </div>
+                <div class="col-md">
+                    <img src="asset/img/python.png" class="img-fluid w-80 h-80 d-sm-block" alt="">
+                </div>
+                <div class="col-md">
+                    <img src="asset/img/php.png" class="img-fluid w-80 h-80 d-sm-block" alt="">
+                </div>
+                <div class="col-md">
+                    <img src="asset/img/wordpress.png" class="img-fluid w-80 h-80 d-sm-block" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="scrollspyHeading2">
+        <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="asset/img/lfh.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Site La Finance Humaniste</h5>
+                            <p class="card-text">Site refait sur WordPress dans le cadre de mon alternance auprès de la
+                                Finance Humaniste.</p>
+                            <a href="#" class="btn btn-primary">Go sur le site</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card" style="width: 18rem;">
+                        <img src="" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card" style="width: 18rem;">
+                        <img src="" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="bg-dark text-light">
+        <form id="contact-form" action="contact.php" method="post" role="form">
+            <div class="controls">
+                <div class="row">
+
+                    <div class="col-md-5">
+                        <div class="form-group">
+                            <input id="form_name" type="text" name="name" class="form-control roundcorners"
+                                placeholder="Nom">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <input id="form_email" type="email" name="email" class="form-control roundcorners"
+                            placeholder="E-mail">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-10">
+                        <div class="form-group">
+                            <textarea name="message" id="form_message" class="form-control roundcorners"
+                                placeholder="Message"></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <input type="submit" name="submit" class="btn btn-outline-dark" value="Envoyer">
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </section>
+
+
+
+    <footer class="p-5 bg-dark text-white text-center">
+
+        <div class="container">
+            <p class="lead">Copyright &copy; 2022 Portfolio Emma Rinaldo</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
